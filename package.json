@@ -1,29 +1,33 @@
 {
-    "name": "@Innovalsrl/super-gif",
-    "version": "0.0.7",
-    "description": "GIF parser & player in Typescript to work with node_modules (converted from https://github.com/buzzfeed/libgif-js)",
-    "main": "dist/super-gif.js",
-    "type": "dist/super-gif.d.ts",
-    "scripts": {
-        "build": "tsc",
-        "preversion": "git add CHANGELOG.md",
-        "version": "npm run build",
-        "postversion": "git push && git push --tags",
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "prepublishOnly": "npm run build"
-    },
-    "publishConfig": {
-        "registry": "https://npm.package.github.com"
-    },
-    "keywords": [
-        "gif",
-        "typescript",
-        "javascript",
-        "angular"
-    ],
-    "author": "Shashank Agrawal",
-    "license": "MIT",
-    "devDependencies": {
-        "typescript": "^3.0.1"
-    }
+  "name": "@Innovalsrl/super-gif",
+  "version": "0.0.7",
+  "description": "GIF parser & player in Typescript to work with node_modules (converted from https://github.com/buzzfeed/libgif-js)",
+  "main": "dist/super-gif.js",
+  "type": "dist/super-gif.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "preversion": "git add CHANGELOG.md",
+    "version": "npm run build",
+    "postversion": "git push && git push --tags",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
+  },
+  "publishConfig": {
+    "registry": "https://npm.package.github.com"
+  },
+  "keywords": [
+    "gif",
+    "typescript",
+    "javascript",
+    "angular"
+  ],
+  "author": "Shashank Agrawal",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Innovalsrl/super-gif.git"
+  }
 }
