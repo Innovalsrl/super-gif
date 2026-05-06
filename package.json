@@ -1,6 +1,6 @@
 {
-    "name": "@wizpanda/super-gif",
-    "version": "0.0.6",
+    "name": "@Innovalsrl/super-gif",
+    "version": "0.0.7",
     "description": "GIF parser & player in Typescript to work with node_modules (converted from https://github.com/buzzfeed/libgif-js)",
     "main": "dist/super-gif.js",
     "type": "dist/super-gif.d.ts",
@@ -9,11 +9,11 @@
         "preversion": "git add CHANGELOG.md",
         "version": "npm run build",
         "postversion": "git push && git push --tags",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepublishOnly": "npm run build"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/wizpanda/super-gif.git"
+    "publishConfig": {
+        "registry": "https://npm.package.github.com"
     },
     "keywords": [
         "gif",
@@ -23,10 +23,6 @@
     ],
     "author": "Shashank Agrawal",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/wizpanda/super-gif/issues"
-    },
-    "homepage": "https://github.com/wizpanda/super-gif#readme",
     "devDependencies": {
         "typescript": "^3.0.1"
     }
