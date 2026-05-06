@@ -1,5 +1,5 @@
 {
-  "name": "@Innovalsrl/super-gif",
+  "name": "@innovalsrl/super-gif",
   "version": "0.0.8",
   "description": "GIF parser & player in Typescript to work with node_modules (converted from https://github.com/buzzfeed/libgif-js)",
   "main": "dist/super-gif.js",
@@ -13,7 +13,7 @@
     "prepublishOnly": "npm run build"
   },
   "publishConfig": {
-    "registry": "https://npm.package.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "gif",
